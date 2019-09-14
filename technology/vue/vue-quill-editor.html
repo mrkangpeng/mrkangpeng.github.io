@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>vue-quill-editor | 鹏 の 博客</title>
+    <meta name="description" content="越努力，越幸运">
+    <link rel="icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/assets/css/0.styles.2ad70cd2.css" as="style"><link rel="preload" href="/assets/js/app.895404bc.js" as="script"><link rel="preload" href="/assets/js/3.d3ce7d99.js" as="script"><link rel="preload" href="/assets/js/1.395eec46.js" as="script"><link rel="preload" href="/assets/js/12.c48e6c10.js" as="script"><link rel="prefetch" href="/assets/js/10.50db9d0e.js"><link rel="prefetch" href="/assets/js/11.7703b8ab.js"><link rel="prefetch" href="/assets/js/13.3e90ab7d.js"><link rel="prefetch" href="/assets/js/14.b820416e.js"><link rel="prefetch" href="/assets/js/15.87cb4000.js"><link rel="prefetch" href="/assets/js/4.9ffe1cca.js"><link rel="prefetch" href="/assets/js/5.8ad2c4b8.js"><link rel="prefetch" href="/assets/js/6.62e2ffcc.js"><link rel="prefetch" href="/assets/js/7.e8ea6861.js"><link rel="prefetch" href="/assets/js/8.4ffa547e.js"><link rel="prefetch" href="/assets/js/9.a599f6db.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.2ad70cd2.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div><div class="theme-container"><div><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">鹏 の 博客</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="theme-options"><!----> <div class="dark-theme-options toggle-option"><label for="dark-theme-toggle">Enable Dark Theme?</label> <input id="dark-theme-toggle" type="checkbox" checked="checked"></div></div></div></div> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont undefined"></i>
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      技术分享
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/technology/vue/" class="nav-link router-link-active"><i class="iconfont undefined"></i>
+  vue
+</a></li><li class="dropdown-item"><!----> <a href="/technology/react/" class="nav-link"><i class="iconfont undefined"></i>
+  react
+</a></li><li class="dropdown-item"><!----> <a href="/technology/performance/" class="nav-link"><i class="iconfont undefined"></i>
+  性能优化
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      工作分享
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/work/bug/" class="nav-link"><i class="iconfont undefined"></i>
+  踩坑
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      生活分享
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/life/food/" class="nav-link"><i class="iconfont undefined"></i>
+  美食
+</a></li><li class="dropdown-item"><!----> <a href="/life/scenery/" class="nav-link"><i class="iconfont undefined"></i>
+  风景
+</a></li><li class="dropdown-item"><!----> <a href="/life/fun/" class="nav-link"><i class="iconfont undefined"></i>
+  趣事
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont undefined"></i>
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      技术分享
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/technology/vue/" class="nav-link router-link-active"><i class="iconfont undefined"></i>
+  vue
+</a></li><li class="dropdown-item"><!----> <a href="/technology/react/" class="nav-link"><i class="iconfont undefined"></i>
+  react
+</a></li><li class="dropdown-item"><!----> <a href="/technology/performance/" class="nav-link"><i class="iconfont undefined"></i>
+  性能优化
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      工作分享
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/work/bug/" class="nav-link"><i class="iconfont undefined"></i>
+  踩坑
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      生活分享
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/life/food/" class="nav-link"><i class="iconfont undefined"></i>
+  美食
+</a></li><li class="dropdown-item"><!----> <a href="/life/scenery/" class="nav-link"><i class="iconfont undefined"></i>
+  风景
+</a></li><li class="dropdown-item"><!----> <a href="/life/fun/" class="nav-link"><i class="iconfont undefined"></i>
+  趣事
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/technology/vue/" class="sidebar-link">介绍</a></li><li><a href="/technology/vue/vue-quill-editor.html" class="active sidebar-link">vue-quill-editor在项目中的使用</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/technology/vue/vue-quill-editor.html#vue-quill-editor" class="sidebar-link">vue-quill-editor</a></li></ul></li></ul> </aside> <div><main class="page reco-hide"> <div class="page-title"><h1>vue-quill-editor</h1> <hr> <div data-v-362e684e><i class="iconfont reco-account" data-v-362e684e><span data-v-362e684e>鹏 の 博客</span></i> <!----> <!----> <!----></div></div> <div class="content__default"><h2 id="vue-quill-editor"><a href="#vue-quill-editor" aria-hidden="true" class="header-anchor">#</a> vue-quill-editor</h2> <p><strong>前言：</strong>在项目中遇到一个需要富文本编辑器的功能，上午查看发现vue-quill-editor这个插件好评挺多的，github点赞量也挺高的，所以我也就直接使用这个编辑器了</p> <ol><li>先安装vue-quill-editor和quill</li></ol> <div class="language- extra-class"><pre class="language-text"><code>npm install vue-quill-editor quill -S
+</code></pre></div><p>2.全局引入</p> <div class="language- extra-class"><pre class="language-text"><code>import { quillEditor } from 'vue-quill-editor' // 调用富文本编辑器
+import 'quill/dist/quill.snow.css' // 富文本编辑器外部引用样式  三种样式三选一引入即可
+//import 'quill/dist/quill.core.css'
+//import 'quill/dist/quill.bubble.css'
+import * as Quill from 'quill'; // 富文本基于quill
+</code></pre></div><p>3.使用</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;template&gt;
+&lt;quill-editor
+  v-model=&quot;content&quot; // 编辑框中的内容
+  ref=&quot;myQuillEditor&quot;
+  :options=&quot;editorOption&quot; // 编辑器toolbar配置项
+  @focus=&quot;onEditorFocus($event)&quot; // 聚焦事件
+  @blur=&quot;onEditorBlur($event)&quot; // 失焦事件
+  @change=&quot;onEditorChange($event)&quot;&gt; // 改变事件
+&lt;/quill-editor&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+import { quillEditor } from &quot;vue-quill-editor&quot;; //调用编辑器
+import 'quill/dist/quill.core.css';
+import 'quill/dist/quill.snow.css';
+import 'quill/dist/quill.bubble.css';
+export default {
+    components: {
+        quillEditor
+    },
+    data() {
+        return {
+            content: `&lt;p&gt;welcome to use&lt;/p&gt;
+            editorOption: {
+              toolbar:[]
+            }
+        }
+    },
+    methods: {
+        onEditorReady(editor) { // 准备编辑器
+ 
+        },
+        onEditorBlur(){}, // 失去焦点事件
+        onEditorFocus(){}, // 获得焦点事件
+        onEditorChange({quill,html,text}){
+          // quill:对应实例
+          // html:对应html结构
+          // text:对应文本内容
+        }, // 内容改变事件
+    },
+    computed: {
+        editor() {
+            return this.$refs.myQuillEditor.quill;
+        },
+    },
+    created() {
+        // ...请求，拿到后台返回的内容对content进行赋值
+    }
+}
+&lt;/script&gt;
+</code></pre></div><p>4.配置你需要的功能</p> <div class="language- extra-class"><pre class="language-text"><code>toolbar:[
+  ['bold', 'italic', 'underline', 'strike'],    //加粗，斜体，下划线，删除线
+  ['blockquote', 'code-block'],     //引用，代码块
+  [{ 'header': 1 }, { 'header': 2 }],        // 标题，键值对的形式；1、2表示字体大小
+  [{ 'list': 'ordered'}, { 'list': 'bullet' }],     //列表
+  [{ 'script': 'sub'}, { 'script': 'super' }],   // 上下标
+  [{ 'indent': '-1'}, { 'indent': '+1' }],     // 缩进
+  [{ 'direction': 'rtl' }],             // 文本方向
+  [{ 'size': ['small', false, 'large', 'huge'] }], // 字体大小
+  [{ 'header': [1, 2, 3, 4, 5, 6, false] }],     //几级标题
+  [{ 'color': [] }, { 'background': [] }],     // 字体颜色，字体背景颜色
+  [{ 'font': [] }],     //字体
+  [{ 'align': [] }],    //对齐方式
+  ['clean'],    //清除字体样式
+  ['image','video']    //上传图片、上传视频
+]
+</code></pre></div><blockquote><p>一切准备就绪，说下我在富文本编辑器中需要做的功能，在我富文本编辑器上有一排按钮，当点击对应按钮的时候在富文本输入栏光标停止的位置中显示按钮中对应的信息且颜色要高亮</p></blockquote> <ul><li>当时我的想法是在失焦事件中拿到对应文本然后拼接内容然后重新赋值data中<code>content</code>的值，发现并不理想，面向百度编程发现居然也有相类似的需求，直接可以拿到光标位置</li></ul> <blockquote><p>直接上代码</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>  // 拿到按钮中的文本信息
+  getContent(data) {
+    this.getCursorPosition();
+    this.setCharacter(data.name, this.curTxtPoint);
+  },
+  //获取当前模板文本域的光标位置
+  getCursorPosition() {
+    this.curTxtPoint = this.$refs.myQuillEditor.quill.selection.savedRange.index;
+  },
+  //插入文本的方式
+  setCharacter(str, index) {
+    this.curTxtPoint = &quot;&quot;;
+    this.$refs.myQuillEditor.quill.insertText(index, str, { color: &quot;red&quot; }); // 插入时，可以随意改变插入的文本颜色
+  },
+</code></pre></div><p>5.整体代码如下</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;template&gt;
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;div class=&quot;tags&quot;&gt;
+      &lt;ul class=&quot;operation&quot;&gt;
+        &lt;li
+          class=&quot;item&quot;
+          v-for=&quot;item in operationList&quot;
+          :key=&quot;item.id&quot;
+          @click=&quot;getContent(item)&quot;
+        &gt;{{item.name}}
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;rich_editor&quot;&gt;
+      &lt;quill-editor
+      v-model=&quot;content&quot; // 编辑框中的内容
+      ref=&quot;myQuillEditor&quot;
+      :options=&quot;editorOption&quot; // 编辑器toolbar配置项
+      @focus=&quot;onEditorFocus($event)&quot; // 聚焦事件
+      @blur=&quot;onEditorBlur($event)&quot; // 失焦事件
+      @change=&quot;onEditorChange($event)&quot;&gt; // 改变事件
+    &lt;/quill-editor&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+&lt;script&gt;
+import { quillEditor } from &quot;vue-quill-editor&quot;; //调用编辑器
+import 'quill/dist/quill.core.css';
+import 'quill/dist/quill.snow.css';
+import 'quill/dist/quill.bubble.css';
+export default {
+    components: {
+        quillEditor
+    },
+    data() {
+        return {
+            content: `&lt;p&gt;welcome to use&lt;/p&gt;,
+            editorOption: {
+              toolbar:[
+                ['bold', 'italic', 'underline', 'strike'],    //加粗，斜体，下划线，删除线
+                ['blockquote', 'code-block'],     //引用，代码块
+                [{ 'header': 1 }, { 'header': 2 }],        // 标题，键值对的形式；1、2表示字体大小
+                [{ 'list': 'ordered'}, { 'list': 'bullet' }],     //列表
+                [{ 'script': 'sub'}, { 'script': 'super' }],   // 上下标
+                [{ 'indent': '-1'}, { 'indent': '+1' }],     // 缩进
+                [{ 'direction': 'rtl' }],             // 文本方向
+                [{ 'size': ['small', false, 'large', 'huge'] }], // 字体大小
+                [{ 'header': [1, 2, 3, 4, 5, 6, false] }],     //几级标题
+                [{ 'color': [] }, { 'background': [] }],     // 字体颜色，字体背景颜色
+                [{ 'font': [] }],     //字体
+                [{ 'align': [] }],    //对齐方式
+                ['clean'],    //清除字体样式
+                ['image','video']    //上传图片、上传视频
+              ]
+            },
+            operationList: [
+            { id: 1, name: &quot;#内容一#&quot; },
+            { id: 2, name: &quot;#内容二#&quot; },
+            { id: 3, name: &quot;#内容三#&quot; },
+            { id: 4, name: &quot;#内容四#&quot; },
+          ],
+        }
+    },
+    methods: {
+      onEditorReady(editor) { // 准备编辑器
+
+      },
+      onEditorBlur(){}, // 失去焦点事件
+      onEditorFocus(){}, // 获得焦点事件
+      onEditorChange({quill,html,text}){
+        // quill:对应实例
+        // html:对应html结构
+        // text:对应文本内容
+
+        this.content = html;
+      }, // 内容改变事件
+      getContent(data) {
+        this.getCursorPosition();
+        this.setCharacter(data.name, this.curTxtPoint);
+      },
+      getCursorPosition() {
+          this.curTxtPoint = this.$refs.myQuillEditor.quill.selection.savedRange.index;
+      },
+      //插入文本的方式
+      setCharacter(str, index) {
+        this.curTxtPoint = &quot;&quot;;
+        this.$refs.myQuillEditor.quill.insertText(index, str, { color: &quot;red&quot; });
+      },
+    },
+    computed: {
+        editor() {
+            return this.$refs.myQuillEditor.quill;
+        },
+    },
+    created() {
+        // ...请求，拿到后台返回的内容对content进行赋值
+    }
+}
+&lt;/script&gt;
+</code></pre></div></div> <!----> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/technology/vue/" class="prev router-link-active">
+          介绍
+        </a></span> <!----></p></div> </main> <div class="valine-wrapper" data-v-5029e45b><div id="valine" data-v-5029e45b></div></div></div> <div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;background-color:rgba(231, 234, 241,.5);display:none;" data-v-cd623d78 data-v-cd623d78><i class="iconfont reco-up" data-v-cd623d78></i></div></div></div></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.895404bc.js" defer></script><script src="/assets/js/3.d3ce7d99.js" defer></script><script src="/assets/js/1.395eec46.js" defer></script><script src="/assets/js/12.c48e6c10.js" defer></script>
+  </body>
+</html>
